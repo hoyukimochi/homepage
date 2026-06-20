@@ -5,15 +5,31 @@
 <title>broom closet</title>
 
 <style>
-  /* 画像に hover 効果をつける */
   img {
-    transition: 0.3s ease;   /* アニメーションの滑らかさ */
-    border-radius: 6px;      /* 角を少し丸く（任意） */
+    transition: 0.3s ease;
+    border-radius: 6px;
+  }
+  img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
   }
 
-  img:hover {
-    transform: scale(1.05);  /* 画像を少し拡大 */
-    box-shadow: 0 4px 12px rgba(0,0,0,0.2); /* 影をつける */
+  /* ナビゲーションリンク */
+  .nav {
+    margin-top: 30px;
+  }
+  .nav a {
+    display: inline-block;
+    margin-right: 20px;
+    padding: 10px 16px;
+    background: #f2f2f2;
+    border-radius: 6px;
+    text-decoration: none;
+    color: #333;
+    transition: 0.2s;
+  }
+  .nav a:hover {
+    background: #ddd;
   }
 </style>
 
@@ -27,8 +43,15 @@
 掃除用具ロッカー建築設計事務所のほゆきと申します。
 </p>
 
-<!-- 写真を追加（hover効果つき） -->
 <img src="ポートレート.jpg" alt="プロフィール写真" width="600">
+
+<!-- ▼ ここが追加部分：3ページへのリンク ▼ -->
+<div class="nav">
+  <a href="about.html">自己紹介</a>
+  <a href="articles.html">構築記事</a>
+  <a href="works.html">制作作品</a>
+</div>
 
 </body>
 </html>
+
