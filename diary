@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<title>日土木曜</title>
+</head>
+
+<body>
+
+<h1>日土木曜</h1>
+
+<ul>
+  <li>記事タイトル1</li>
+  <li>記事タイトル2</li>
+  <li>記事タイトル3</li>
+</ul>
+
+<p><a href="index.html">← トップへ戻る</a></p>
+
+</body>
+</html>
