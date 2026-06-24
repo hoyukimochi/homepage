@@ -2,7 +2,7 @@
 <html lang="ja">
 <head>
 <meta charset="UTF-8">
-<title>日土木曜</title>
+<title>日記</title>
 
 <style>
   body {
@@ -10,14 +10,37 @@
     line-height: 1.7;
     margin: 40px;
   }
+
+  /* 日記カード */
   .entry {
-    margin-bottom: 40px;
-    padding-bottom: 20px;
+    margin-bottom: 50px;
+    padding-bottom: 30px;
     border-bottom: 1px solid #ccc;
   }
+
   .date {
     font-weight: bold;
     color: #555;
+    margin-bottom: 10px;
+  }
+
+  /* 写真 */
+  .photo {
+    width: 100%;
+    max-width: 700px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    transition: 0.3s ease;
+  }
+
+  .photo:hover {
+    transform: scale(1.02);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+  }
+
+  /* 本文 */
+  .text {
+    max-width: 700px;
   }
 </style>
 
@@ -25,14 +48,18 @@
 
 <body>
 
-<h1>日土木曜</h1>
+<h1>日記</h1>
 
+<!-- ▼ 日記1つめ ▼ -->
 <div class="entry">
   <div class="date">2026-06-25</div>
-  <p>
-    たまに日土木をかきます。
-  </p>
+  <img src="diary_20260625.jpg" alt="日土木写真" class="photo">
+  <div class="text">
+    散髪しにいきました。
+    長い鏡がありました。
+  </div>
 </div>
+
 
 <p><a href="index.html">← トップへ戻る</a></p>
 
